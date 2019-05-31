@@ -1,0 +1,12 @@
+.header {
+  background-image: url('../images/post-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  &__title {
+    text-align: center;
+    position: relative;
+    top: 40vh;
+  }
+}

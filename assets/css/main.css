@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -55,6 +56,29 @@ table {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
+}
+
+/*
+  Te faltó definir el estilo para la clase
+*/
+.navigation {
+  background-color: #121619;
+}
+.navigation__logo {
+  height: 30px;
+  width: 55px;
+}
+
+.header {
+  background-image: url("../images/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.header__title {
+  text-align: center;
+  position: relative;
+  top: 40vh;
 }
 
 /*# sourceMappingURL=main.css.map */
