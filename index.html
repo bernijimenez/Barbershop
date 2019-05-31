@@ -8,9 +8,9 @@
 <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-<nav>
+<nav class="navigation"> <!-- Para usar un .nav debes crear la clase.... como ahora que uso .navigation-->
   <ul class="nav justify-content-end">
-    <img src="logo.png" alt="">
+    <img src="assets/images/logo.png" alt="" class="navigation__logo">
     <li class="nav-item">
       <a class="nav-link active" href="#">Nosotros</a>
     </li>
@@ -28,12 +28,8 @@
     </li>
   </ul>
 </nav>
-<header class="container header">
-  <div class="row">
-    <div class="col-xs-6 col-md-6">
-
-      <img src="assets/images/post-image.jpg" class="header__logo" alt="">
-  <h1>5 formas de cuidar <br>tu corte de cabello</h1>
+<header class="container-fluid header"> <!-- container-fluid para usar el 100% del espacio -->
+  <h1 class="header__title">5 formas de cuidar <br>tu corte de cabello</h1>
 </div>
 
 </div>
@@ -59,7 +55,7 @@
   <div class="row">
     <div class="col-xs-6 col-md-6">
       <div class="profile__picture">
-      <img src="assets/images/naomi-thaipng" alt="">
+      <img src="assets/images/naomi-thai.png" alt="">
   </div>
 <div class="profile_rrss">
   <h2>Naomi Thai</h2>
