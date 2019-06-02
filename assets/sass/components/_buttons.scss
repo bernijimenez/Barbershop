@@ -1,0 +1,18 @@
+
+.button_default {
+
+}
+
+.button_positive{
+
+}
+
+.main-text {
+  font-family: $roboto;
+  color: $white;
+
+  &__button {
+    padding: 7rem 2rem;
+    border-radius: 3px;
+   }
+ }

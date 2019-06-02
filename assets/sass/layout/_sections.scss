@@ -1,9 +1,10 @@
 
-  .hero-text{
-    padding: 30px;
+.hero-text{
+  padding: 50px;
 
-    &__article{
-      font-size: $xx-large;
-
-    }
+  &__article {
+    font-size: $small;
+    font-weight: 300;
+    color: $raisin-black;
   }
+}
